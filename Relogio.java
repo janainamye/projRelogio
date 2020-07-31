@@ -11,7 +11,7 @@ public class Relogio {
         }
 
     public void mostrarHora(){
-        System.out.println(("A hora exta agora é: " +hora+":"+minuto+":"+segundo));
+        System.out.println("A hora exta agora é: " +getHora()+":"+getMinuto()+":"+getSegundo());
     }
 
     public int getHora() {
